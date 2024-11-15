@@ -17,20 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 
-function toggleMenu() {
-    const bar = document.querySelector(".bar");
-    const closebar = document.querySelector(".closebar");
-    const navLinks = document.querySelector(".navlinks");
+// function toggleMenu() {
+//     const bar = document.querySelector(".bar");
+//     const closebar = document.querySelector(".closebar");
+//     const navLinks = document.querySelector(".navlinks");
 
 
-    navLinks.classList.toggle('show');
+//     navLinks.classList.toggle('show');
 
-    if (navLinks.classList.contains('show')) {
-        bar.style.display = "none";
-        closebar.style.display = "block"; 
-    } else {
-        bar.style.display = "block";     
-        closebar.style.display = "none"; 
-    }
-}
+//     if (navLinks.classList.contains('show')) {
+//         bar.style.display = "none";
+//         closebar.style.display = "block"; 
+//     } else {
+//         bar.style.display = "block";     
+//         closebar.style.display = "none"; 
+//     }
+// }
 
